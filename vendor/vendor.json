@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "DbkutT+QdNukDhliXQxHNmgRoNk=",
+			"path": "github.com/didip/tollbooth",
+			"revision": "56b41033b8b6a907650300515efcfc25cb7d2087",
+			"revisionTime": "2017-09-10T03:52:40Z"
+		},
+		{
+			"checksumSHA1": "bPm9P3nXAmXmjXXKq7DnNEPzhyQ=",
+			"path": "github.com/didip/tollbooth/limiter",
+			"revision": "56b41033b8b6a907650300515efcfc25cb7d2087",
+			"revisionTime": "2017-09-10T03:52:40Z"
+		}
+	],
+	"rootPath": "github.com/didip/tollbooth_gin"
+}
