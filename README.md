@@ -19,7 +19,7 @@ func main() {
     r := gin.New()
 
     // Create a limiter struct.
-    limiter := tollbooth.NewLimiter(1, time.Second)
+    limiter := tollbooth.NewLimiter(1, time.Second, nil)
 
     r.GET("/", tollbooth_gin.LimitHandler(limiter), func(c *gin.Context) {
         c.String(200, "Hello, world!")
