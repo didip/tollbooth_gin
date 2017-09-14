@@ -3,10 +3,10 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "DbkutT+QdNukDhliXQxHNmgRoNk=",
+			"checksumSHA1": "LWSc/x0uRpsG/Q5yi6X6tkx1QQA=",
 			"path": "github.com/didip/tollbooth",
-			"revision": "56b41033b8b6a907650300515efcfc25cb7d2087",
-			"revisionTime": "2017-09-10T03:52:40Z"
+			"revision": "8a5832d289e4375d2fc658ed42ef08975b66dceb",
+			"revisionTime": "2017-09-14T16:02:52Z"
 		},
 		{
 			"checksumSHA1": "bPm9P3nXAmXmjXXKq7DnNEPzhyQ=",

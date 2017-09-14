@@ -8,7 +8,7 @@ import (
 
 func LimitHandler(lmt *limiter.Limiter) gin.HandlerFunc {
 	return func(c *gin.Context) {
-		httpError := tollbooth.LimitByRequest(lmt, c.Request)
+		httpError := tollbooth.LimitByRequest(lmt, c.Response, c.Request)
 		if httpError != nil {
 			c.Data(httpError.StatusCode, lmt.GetMessageContentType(), []byte(httpError.Message))
 			c.Abort()
