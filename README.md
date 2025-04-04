@@ -9,7 +9,7 @@ package main
 
 import (
     "github.com/didip/tollbooth/v7"
-    "github.com/didip/tollbooth_gin/v7"
+    "github.com/didip/tollbooth_gin"
     "github.com/gin-gonic/gin"
 )
 
